@@ -99,7 +99,7 @@ body {
 }
 
 .voice1::before {
-    content: "'Robot voice': ";
+    content: "'Voice from speakers': ";
     font-weight: 600;
     font-size:
 }
