@@ -109,6 +109,12 @@ body {
     color: white;
 }
 
+.voice12::before {
+    content: "'K': ";
+    font-weight: 600;
+    font-size:
+}
+
 .voice3 {
     margin: -5rem;
     font-size: ;
