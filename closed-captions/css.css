@@ -9,17 +9,16 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
     transition: .05s;
     position: absolute;
-
-    text-align: center;
+    width: 50vw;
     margin-top: 2rem;
-    width: 100%;
-
-
+    padding: 0.2rem;
+    box-sizing: border-box;
 }
 
 #closed-captions {
     display: flex;
     justify-content: space-around;
+    margin: auto;
 }
 
 #closed-captions .on {
@@ -31,9 +30,6 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
 }
 
-.voice1 {
-    font-style: italic;
-}
 
 
 /* **********************************************
@@ -46,7 +42,9 @@ body {
 
 #video-placeholder {
     display: flex;
-    margin: 25vh auto 0;
+    margin: 20vh auto 0;
+    width: 50vw;
+    height: 30vw;
 }
 
 .perspectiveLine {
@@ -96,34 +94,142 @@ body {
 .voice1 {
     font-family: monospace;
     color: white;
+    font-size: 1.2rem
 }
 
 .voice1::before {
-    content: "'Voice from speakers': ";
+    background: url("Icons/speaker.svg") no-repeat;
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    content: "";
     font-weight: 600;
-    font-size:
+    display: inline-block;
+    background-color: #237aba;
+    padding: 0.1rem 0.1rem;
+    margin-right: 0.7rem;
 }
+
+.first1 {
+    font-family: monospace;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.first1::before {
+    background: url("Icons/speaker.svg") no-repeat;
+    background-size: contain;
+    height: 18px;
+    content: "Intercom";
+    font-weight: 600;
+    background-color: #237aba;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+    padding-left: 30px
+}
+
 
 .voice2 {
     font-family: sans-serif;
     color: white;
 }
 
-.voice12::before {
-    content: "'K': ";
+.first2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.first2::before {
+    background-size: contain;
+    height: 18px;
+    content: "K";
     font-weight: 600;
-    font-size:
+    background-color: #952fd4;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+}
+
+
+.voice2::before {
+    background-size: contain;
+    height: 18px;
+    content: "K";
+    font-weight: 600;
+    background-color: #952fd4;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
 }
 
 .voice3 {
-    margin: -5rem;
-    font-size: ;
-    color: #f74c4c;
+    color: #ea2c2c;
     font-family: sans-serif;
-    transform: skew(-15deg) scale(3);
+    transform: skew(-15deg);
     font-weight: 600;
+    margin: auto;
+    font-size: 1.6rem
+}
+
+.sound1 {
+    color: #46bc3c;
+    font-family: sans-serif;
+    transform: skew(-15deg);
+    font-weight: 600;
+    margin: auto;
+    font-size: 1.6rem;
+}
 
 
+/* **********************************************
+- Ambient noices styling -
+********************************************** */
+
+body.sound0 {
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+
+.sound1 {
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+
+body.sound0.sound1.sound2 {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
 
 
