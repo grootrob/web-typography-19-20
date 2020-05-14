@@ -171,14 +171,19 @@ body {
     font-size: 1.6rem;
 }
 
-.first2::after {
+body.sound1::after {
+    font-family: sans-serif;
     background-size: contain;
-    height: 18px;
+    font-size: 3rem;
     content: "Buzzzzzzz";
     font-weight: 600;
     color: aquamarine;
     padding: 0.1rem 0.3rem;
     margin-right: 0.7rem;
+    position: absolute;
+    transform: skewX(-20deg)rotate(-30deg);
+    top: 70vh
+        /*    left: -20vw;*/
 }
 }
 
