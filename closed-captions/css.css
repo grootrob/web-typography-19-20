@@ -85,6 +85,11 @@ body {
     z-index: -1;
 }
 
+.sound1 iframe {
+    animation: buzzerAlarm 1.1s ease;
+}
+
+
 
 /* **********************************************
 - Voices styling -
@@ -174,17 +179,139 @@ body {
 body.sound1::after {
     font-family: sans-serif;
     background-size: contain;
-    font-size: 3rem;
-    content: "Buzzzzzzz";
-    font-weight: 600;
-    color: aquamarine;
+    font-size: 7rem;
+    content: "Buzzzz";
+    font-weight: 900;
+    color: #fdfdfd;
     padding: 0.1rem 0.3rem;
     margin-right: 0.7rem;
     position: absolute;
-    transform: skewX(-20deg)rotate(-30deg);
-    top: 70vh
-        /*    left: -20vw;*/
+    transform: skewX(20deg)rotate(20deg);
+    top: 15vh;
+    right: 15vw;
+    animation: glow 2s ease;
+
+    /*    left: -20vw;*/
 }
+
+.voice4::before {
+    background-size: contain;
+    height: 18px;
+    content: "Mysterious voice:";
+    font-weight: 600;
+    background-color: #46bc3c;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+}
+
+
+.voice4 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.sound0 {
+    animation: lightning 16s ease forwards;
+}
+
+@keyframes lightning {
+
+    0% {
+        background-color: black;
+    }
+
+    10% {
+        background-color: #303030;
+    }
+
+    20% {
+        background-color: black;
+    }
+
+    30% {
+        background-color: #303030;
+    }
+
+    40% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: #303030;
+    }
+
+    60% {
+        background-color: black;
+    }
+
+    70% {
+        background-color: #303030;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    90% {
+        background-color: #303030;
+    }
+
+    100% {
+        background-color: black;
+    }
+
+}
+
+
+
+@keyframes glow {
+    0% {
+        border-color: #393;
+        text-shadow: 0 0 10px rgba(229, 0, 0, 0.81);
+    }
+
+    10% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+    }
+
+    20% {
+        border-color: #393;
+        text-shadow: 0 0 10px rgba(229, 0, 0, 0.81);
+    }
+
+    30% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+    }
+
+    40% {
+        border-color: #393;
+        text-shadow: 0 0 10px rgba(229, 0, 0, 0.81);
+    }
+
+    50% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+    }
+
+    70% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+    }
+
+    90% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+    }
+
+
+    100% {
+        border-color: #6f6;
+        text-shadow: 0 0 30px #ea2c2c;
+        opacity: 0;
+    }
 }
 
 /*
@@ -203,27 +330,27 @@ body.sound1::after {
 - Ambient noices styling -
 ********************************************** */
 
-body.sound0 {
+iframe.sound0 {
     animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
+    animation-play-state: running;
     perspective: 1000px;
 }
 
 
 
-.sound1 {
-    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) infinite;
+iframe.sound1 {
+    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
+    animation-play-state: running;
     perspective: 1000px;
 }
 
 
-body.sound0.sound1.sound2 {
+iframe.sound0.sound1.sound2 {
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
+    animation-play-state: running;
     perspective: 1000px;
 }
 
@@ -248,6 +375,26 @@ body.sound0.sound1.sound2 {
     40%,
     60% {
         transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes buzzerAlarm {
+
+
+    0% {
+        box-shadow: 0px 0px 50px 16px rgba(229, 0, 0, 0.81);
+        border: 5px solid rgba(229, 0, 0, 0.81);
+    }
+
+    50% {
+        width: 55vw;
+        box-shadow: 0px 0px 50px 16px rgba(229, 0, 0, 0.81);
+        border: 2px solid rgba(229, 0, 0, 0.81);
+    }
+
+    100% {
+        width: 50vw;
+        /*        transform: scale(5%);*/
     }
 }
 
