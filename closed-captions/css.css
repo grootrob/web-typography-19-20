@@ -451,6 +451,123 @@ body {
 }
 
 
+
+/* **********************************************
+- Voices styling -
+********************************************** */
+
+
+.voice1 {
+    font-family: monospace;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.voice1::before {
+    background: url("Icons/speaker.svg") no-repeat;
+    background-size: contain;
+    height: 1.3rem;
+    width: 1.3rem;
+    vertical-align: middle;
+    content: "";
+    font-weight: 600;
+    display: inline-block;
+    background-color: #237aba;
+    padding: ;
+    margin-right: 0.7rem;
+    line-height: 2rem;
+}
+
+.first1 {
+    font-family: monospace;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.first1::before {
+    background: url("Icons/speaker.svg") no-repeat;
+    background-size: contain;
+    content: "Intercom";
+    font-weight: 600;
+    background-color: #237aba;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+    padding-left: 30px;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+
+.voice2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.first2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.first2::before {
+    background-size: contain;
+    height: 18px;
+    content: "K";
+    font-weight: 600;
+    background-color: #952fd4;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+}
+
+
+.voice2::before {
+    background-size: contain;
+    height: 18px;
+    content: "K";
+    font-weight: 600;
+    background-color: #952fd4;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+}
+
+.voice3 {
+    color: #ea2c2c;
+    font-family: sans-serif;
+    transform: skew(-15deg);
+    font-weight: 600;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+
+.voice4::before {
+    background-size: contain;
+    height: 18px;
+    content: "Mysterious voice:";
+    font-weight: 600;
+    background-color: #46bc3c;
+    padding: 0.1rem 0.3rem;
+    margin-right: 0.7rem;
+}
+
+
+.voice4 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+/* **********************************************
+- Keyframes-
+********************************************** */
+
+
+
 @keyframes stop {
     0% {
         fill: rgba(255, 0, 0, 0.81)
@@ -776,119 +893,6 @@ body {
 
 
 
-/* **********************************************
-- Voices styling -
-********************************************** */
-
-
-.voice1 {
-    font-family: monospace;
-    color: white;
-    font-size: 1.2rem;
-    line-height: 2rem;
-}
-
-.voice1::before {
-    background: url("Icons/speaker.svg") no-repeat;
-    background-size: contain;
-    height: 1.3rem;
-    width: 1.3rem;
-    vertical-align: middle;
-    content: "";
-    font-weight: 600;
-    display: inline-block;
-    background-color: #237aba;
-    padding: ;
-    margin-right: 0.7rem;
-    line-height: 2rem;
-}
-
-.first1 {
-    font-family: monospace;
-    color: white;
-    font-size: 1.2rem;
-}
-
-.first1::before {
-    background: url("Icons/speaker.svg") no-repeat;
-    background-size: contain;
-    content: "Intercom";
-    font-weight: 600;
-    background-color: #237aba;
-    padding: 0.1rem 0.3rem;
-    margin-right: 0.7rem;
-    padding-left: 30px;
-    height: 1.3rem;
-    width: 1.3rem;
-}
-
-
-.voice2 {
-    font-family: sans-serif;
-    color: white;
-    font-size: 1rem;
-    line-height: 2rem;
-}
-
-.first2 {
-    font-family: sans-serif;
-    color: white;
-}
-
-.first2::before {
-    background-size: contain;
-    height: 18px;
-    content: "K";
-    font-weight: 600;
-    background-color: #952fd4;
-    padding: 0.1rem 0.3rem;
-    margin-right: 0.7rem;
-}
-
-
-.voice2::before {
-    background-size: contain;
-    height: 18px;
-    content: "K";
-    font-weight: 600;
-    background-color: #952fd4;
-    padding: 0.1rem 0.3rem;
-    margin-right: 0.7rem;
-}
-
-.voice3 {
-    color: #ea2c2c;
-    font-family: sans-serif;
-    transform: skew(-15deg);
-    font-weight: 600;
-    margin: auto;
-    font-size: 1.6rem;
-}
-
-
-.voice4::before {
-    background-size: contain;
-    height: 18px;
-    content: "Mysterious voice:";
-    font-weight: 600;
-    background-color: #46bc3c;
-    padding: 0.1rem 0.3rem;
-    margin-right: 0.7rem;
-}
-
-
-.voice4 {
-    font-family: sans-serif;
-    color: white;
-    font-size: 1rem;
-}
-
-/*
-.sound0 {
-    animation: lightning 16s ease forwards;
-}
-*/
-
 
 @keyframes siren {
 
@@ -1028,55 +1032,6 @@ body {
         opacity: 0;
     }
 }
-
-/*
-
-.voice2.cells {
-
-    font-weight: 800;
-    color: #ffffff;
-    text-shadow: 0px 0px 10px #26ff14;
-}
-*/
-
-/*
-.sound1 {
-    color: #46bc3c;
-    font-family: sans-serif;
-    transform: skew(-15deg);
-    font-weight: 600;
-    margin: auto;
-    font-size: 1.6rem;
-}
-*/
-
-
-/* **********************************************
-- Ambient noices styling -
-********************************************** */
-
-/*
-body.sound0 {
-    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
-    transform: translate3d(0, 0, 0);
-    animation-play-state: running;
-}
-
-
-
-body.sound1 {
-    animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
-    transform: translate3d(0, 0, 0);
-    animation-play-state: running;
-}
-
-
-body.sound0.sound1.sound2 {
-    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-    transform: translate3d(0, 0, 0);
-    animation-play-state: running;
-}
-*/
 
 @keyframes tumm {
 
@@ -1282,9 +1237,11 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s .7s;
     font-size: 1.4rem;
+    /*
     font-weight: 800;
     color: #ffffff;
     text-shadow: 0px 0px 10px #26ff14;
+*/
 }
 
 .p4.on span:nth-of-type(5) {
@@ -1305,10 +1262,12 @@ You probably want to change the styling.
 .p4.on span:nth-of-type(7) {
     opacity: 1;
     transition: 0s 1.7s;
+    /*
     font-size: 1.4rem;
     font-weight: 800;
     color: #ffffff;
     text-shadow: 0px 0px 10px #26ff14;
+*/
 
 
 }
@@ -1346,9 +1305,11 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s .5s;
     font-size: 1.4rem;
+    /*
     font-weight: 800;
     color: #ffffff;
     text-shadow: 0px 0px 10px #26ff14;
+*/
 }
 
 .p5.on span:nth-of-type(4) {
@@ -1382,9 +1343,11 @@ You probably want to change the styling.
     transition: 0s 1.7s;
     margin-right: ;
     font-weight: 800;
+    /*
     font-size: 1.4rem;
     color: #ffffff;
     text-shadow: 0px 0px 10px #26ff14;
+*/
 
 
 }
