@@ -37,15 +37,29 @@ Zoals hierboven al genoemd heb ik een aantal van Darice's wensen als hoofd "eise
 De functie is belangrijk maar de ervaring misschien nog wel meer. Door deze nonsense word je ontwerp leuker en creatiever. De nonsense die ik toegevoegd heb is onder andere de verschillende animaties op de tekst. Deze in de hoop dat ze een toevoeging geven aan de ervaring.
 
 # Experiment 1
-<img src="/screenshots/Experiment1.png" alt="Experiment1" style="width:350px;">
+<img src="/screenshots/Experiment1.png" alt="Experiment1" width="350px">
 
 Voor mijn eerste experiment ben ik aan de gang gegaan met perspectief lijnen. Op deze manier wou ik kunnen laten zien van welke kant het geluid kwam, alsof je in een kamer zat.
 In deze vak zou bijvoorbeeld het woord "buzzer" verschijnen (zie afbeelding).
 
-Ookheb ik hier namen toegevoegd aan de closed-caption met een icoon erbij. Hierdoor is het telkens duidelijk wie er praat.
+Ook heb ik hier namen toegevoegd aan de closed-caption met een icoon erbij. Hierdoor is het telkens duidelijk wie er praat.
+
+#### Waarom niet gekozen?
+Ik ben niet verder gegaan met deze versie omdat het voor Darice niet duidelijk was wta de lijnen waren en het ook erg lastig zal zijn om dit duidelijk te maken. Wel heb ik de nametags in de captions behouden.
 
 # Experiment 2
-<a href="https://grootrob.github.io/web-typography-19-20/closed-captions/index.html">Link naar Experiment 2</a>
+<img src="/screenshots/Experiment2.png" alt="Experiment1" width="350px">
+
+Voor experiment twee ben ik aan de slag gegaan met neon letters die door een balk heen komen. Op deze manier wou ik geluiden animeren en eventueel pixel figuren toevoegen.
+
+#### Waarom niet gekozen?
+Deze versie is het niet geworden omdat Darice snel langs vliegende objecten afleidend vond. Ook werd het snel eentonig en dat vond ik niet creatief genoeg voor deze opdracht.
+
 
 # Experiment 3 (Eindresultaat)
+
+Voor experiment twee ben ik aan de slag gegaan met neon letters die door een balk heen komen. Op deze manier wou ik geluiden animeren en eventueel pixel figuren toevoegen.
+
+#### Waarom niet gekozen?
+Deze versie is het niet geworden omdat Darice snel langs vliegende objecten afleidend vond. Ook werd het snel eentonig en dat vond ik niet creatief genoeg voor deze opdracht.
 
