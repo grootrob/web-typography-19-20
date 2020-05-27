@@ -591,62 +591,62 @@ body {
 
     3% {
         transform: translate3d(-1px, 0px, 0);
-        fill: rgba(255, 255, 255, 0.05);
+        fill: rgba(255, 255, 255, 0.1);
     }
 
     5% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.18);
     }
 
     8% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.15);
+        fill: rgba(255, 255, 255, 0.25);
     }
 
     11% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.33);
     }
 
     14% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.2);
+        fill: rgba(255, 255, 255, 0.37);
     }
 
     17% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.25);
+        fill: rgba(255, 255, 255, 0.44);
     }
 
     20% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.30);
+        fill: rgba(255, 255, 255, 0.56);
     }
 
     23% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.35);
+        fill: rgba(255, 255, 255, 0.67);
     }
 
     26% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.40);
+        fill: rgba(255, 255, 255, 0.78);
     }
 
     29% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.45);
+        fill: rgba(255, 255, 255, 0.89);
     }
 
     33% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.5);
+        fill: rgba(255, 255, 255, 1);
     }
 
     36% {
         transform: translate3d(1px, -1px, 0);
-        fill: rgba(255, 255, 255, 0.55);
+        fill: rgba(255, 255, 255, 0.1);
     }
 
 }
