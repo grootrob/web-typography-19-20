@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* **********************************************
 Basic mechanics
 Hide all paragraphs by default
@@ -13,8 +19,8 @@ Feel free to adjust the defaults to your needs.
     margin-top: 2rem;
     padding: 1rem;
     box-sizing: border-box;
-    border: 1.5px solid white;
-    box-shadow: 0px 0px 10px #e6c44f;
+    justify-content: space-around;
+    text-align: center;
 }
 
 #closed-captions {
@@ -39,58 +45,438 @@ Feel free to adjust the defaults to your needs.
 - Background styling -
 ********************************************** */
 
-body {
+html {
+    margin: 0;
+    padding: 0;
     background-color: black;
+}
+
+
+body {
+    width: 1350px;
+    overflow: hidden;
 }
 
 #video-placeholder {
     display: flex;
-    margin: 20vh auto 0;
-    width: 50vw;
-    height: 30vw;
+    margin: auto;
+    width: 720px;
+    height: 576px;
+    justify-content: space-around;
+    z-index: 1;
 }
 
-.perspectiveLine {
-    width: 60%;
-    background-color: #46bc3c;
-    height: 2px;
-    display: block;
-    margin: auto 0;
-    position: relative;
-    box-shadow: 0px 0px 10px 1px rgba(67, 204, 67, 0.88);
-}
-
-.line1 {
-    transform: rotate(25deg);
-    top: 10vh;
-    left: -23vw;
-    z-index: -1;
-}
-
-.line2 {
-    transform: rotate(-25deg);
-    top: 10vh;
-    right: -63vw;
-    z-index: -1;
-}
-
-.line3 {
-    transform: rotate(-25deg);
-    top: 80vh;
-    left: -23vw;
-    z-index: -1;
-}
-
-.line4 {
-    transform: rotate(25deg);
-    top: 80vh;
-    right: -63vw;
-    z-index: -1;
-}
 
 .sound1 iframe {
     animation: buzzerAlarm 1.1s ease;
 }
+
+.container {
+    /*    background-color: aqua;*/
+    height: 1000px;
+    width: 1350px;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 200px 100px 100px 100px;
+}
+
+.container svg {
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 1360px;
+    z-index: -1;
+}
+
+.cls-1 {
+    fill: rgba(255, 255, 255, 0.05);
+}
+
+
+/* **********************************************
+- SVG styling -
+********************************************** */
+
+.sound0 .Tumm {
+
+    animation: tumm 1s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    animation-iteration-count: 2;
+}
+
+.sound1 .Buzzer1,
+.sound1 .Buzzer2 {
+
+    animation: buzzer 1.2s ease-in-out both;
+    transform: translate3d(0, 0, 0);
+    animation-iteration-count: 1;
+}
+
+.sound2 .Siren {
+    stroke-dasharray: 50;
+    animation: siren 2.5s linear;
+    animation-iteration-count: 1;
+}
+
+.sound4 .Beep1 {
+    animation: highbeep 1.5s ease-in-out;
+    transform-origin: center;
+}
+
+/* - Cells gedeelte - */
+
+
+
+.sound5 .CellsBig {
+    stroke-dasharray: 50;
+    animation: cells 2s linear;
+    transform-origin: center;
+    animation-iteration-count: 2;
+}
+
+.sound6 .CellsBig2 {
+    stroke-dasharray: 50;
+    animation: cells 1s linear;
+    transform-origin: center;
+}
+
+.sound11 .Beep2 {
+    animation: highbeep 1.5s ease-in-out;
+    transform-origin: center;
+}
+
+.sound12 .Cells1 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound13 .Cells2 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound14 .intens {}
+
+.sound15 .Cells3 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound16 .Cells4 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound17 .Cells5 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound18 .Cells6 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound19 .Cells7 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound20 .Cells8 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound21 .InterlinkedBig {
+    animation: interlinkedBig 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound22 .Interlinked11 {
+    animation: interlinkedBig2 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound23 .Interlinked1 {
+    animation: interlinkedTop 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound24 .Interlinked4 {
+    animation: interlinkedBottom 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+
+.sound25 .Interlinked15 {
+    animation: interlinkedTop 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound26 .Interlinked3 {
+    animation: interlinkedBottom 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound27 .Interlinked12 {
+    animation: interlinkedTop 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound28 .Interlinked2 {
+    animation: interlinkedBottom 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound29 .Interlinked14 {
+    animation: interlinkedBig 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound30 .Interlinked10 {
+    animation: interlinkedTop 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound31 .Interlinked7 {
+    animation: interlinkedBottom 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound32 .Interlinked8 {
+    animation: interlinkedTop 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound33 .Interlinked6 {
+    animation: interlinkedBottom 1.5s ease-in-out;
+    mix-blend-mode: difference;
+}
+
+.sound34 .Within2 {
+
+    animation: withincells 2s;
+    transform-origin: center;
+}
+
+.sound35 .Within1 {
+
+    animation: withincells3 2s;
+    transform-origin: center;
+}
+
+.sound36 .Within3 {
+    animation: withincells2 1.3s;
+    animation-iteration-count: 3;
+    transform-origin: center;
+}
+
+
+@keyframes cells {
+    99% {
+        stroke: hotpink;
+        stroke-dashoffset: 400;
+    }
+
+    100% {
+        stroke: none;
+    }
+
+}
+
+@keyframes interlinkedTop {
+    0% {}
+
+    50% {
+        stroke: yellow;
+        transform: translateY(30px);
+    }
+
+    100% {
+        stroke: yellow;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes interlinkedBottom {
+    0% {}
+
+    50% {
+        stroke: cyan;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        stroke: cyan;
+        transform: translateY(0px);
+    }
+}
+
+
+
+@keyframes interlinkedBig {
+    0% {}
+
+    50% {
+        stroke: #26ff14;
+        transform: scaleY(1.1);
+    }
+
+    100% {
+        stroke: #26ff14;
+        transform: scaleY(1);
+    }
+}
+
+@keyframes interlinkedBig2 {
+    0% {}
+
+    50% {
+        stroke: #26ff14;
+        transform: scaleX(1.1);
+    }
+
+    100% {
+        stroke: #26ff14;
+        transform: scaleX(1);
+    }
+}
+
+
+@keyframes highbeep {
+    0% {}
+
+    50% {
+        fill: #26ff14;
+        transform: scaleY(1.1);
+    }
+
+    100% {
+        fill: #26ff14;
+        transform: scaleY(1);
+
+
+    }
+}
+
+@keyframes cellsSmall {
+    0% {}
+
+    50% {
+        fill: hotpink;
+        transform: scaleX(1.05);
+    }
+
+    100% {
+        fill: hotpink;
+        transform: scaleX(1);
+
+
+    }
+}
+
+
+@keyframes withincells {
+    0% {}
+
+    5% {
+        fill: #ffcd26;
+        transform: skewX(2deg);
+    }
+
+    10% {
+        fill: #ffcd26;
+        transform: skewX(-2deg);
+    }
+
+    15% {
+        fill: #ffcd26;
+        transform: skewX(2deg);
+    }
+
+    20% {
+        fill: #ffcd26;
+        transform: skewX(0deg);
+    }
+
+    99% {
+        fill: #ffcd26;
+        transform: skewX(0deg);
+    }
+
+    100% {}
+}
+
+@keyframes withincells3 {
+    0% {}
+
+    5% {
+        fill: #79ff26;
+        transform: skewX(2deg);
+    }
+
+    10% {
+        fill: #79ff26;
+        transform: skewX(-2deg);
+    }
+
+    15% {
+        fill: #79ff26;
+        transform: skewX(2deg);
+    }
+
+    20% {
+        fill: #79ff26;
+        transform: skewX(0deg);
+    }
+
+    99% {
+        fill: #79ff26;
+        transform: skewX(0deg);
+    }
+
+    100% {}
+}
+
+@keyframes withincells2 {
+    0% {}
+
+    5% {
+        fill: #ff75fa;
+
+        transform: skewY(2deg);
+    }
+
+    10% {
+        fill: #ff75fa;
+
+        transform: skewY(-2deg);
+    }
+
+    15% {
+        fill: #ff75fa;
+
+        transform: skewY(2deg);
+    }
+
+    20% {
+        fill: #ff75fa;
+
+        transform: skewY(0deg);
+    }
+
+    99% {
+        fill: #ff75fa;
+
+        transform: skewY(0deg);
+    }
+
+    100% {}
+}
+
 
 
 
@@ -102,21 +488,23 @@ body {
 .voice1 {
     font-family: monospace;
     color: white;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 .voice1::before {
     background: url("Icons/speaker.svg") no-repeat;
     background-size: contain;
-    height: 18px;
-    width: 18px;
+    height: 1.3rem;
+    width: 1.3rem;
     vertical-align: middle;
     content: "";
     font-weight: 600;
     display: inline-block;
     background-color: #237aba;
-    padding: 0.1rem 0.1rem;
+    padding: ;
     margin-right: 0.7rem;
+    line-height: 2rem;
 }
 
 .first1 {
@@ -128,13 +516,14 @@ body {
 .first1::before {
     background: url("Icons/speaker.svg") no-repeat;
     background-size: contain;
-    height: 18px;
     content: "Intercom";
     font-weight: 600;
     background-color: #237aba;
     padding: 0.1rem 0.3rem;
     margin-right: 0.7rem;
-    padding-left: 30px
+    padding-left: 30px;
+    height: 1.3rem;
+    width: 1.3rem;
 }
 
 
@@ -142,6 +531,7 @@ body {
     font-family: sans-serif;
     color: white;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 .first2 {
@@ -179,23 +569,6 @@ body {
     font-size: 1.6rem;
 }
 
-body.sound1::after {
-    font-family: sans-serif;
-    background-size: contain;
-    font-size: 7rem;
-    content: "Buzzzz";
-    font-weight: 900;
-    color: #fdfdfd;
-    padding: 0.1rem 0.3rem;
-    margin-right: 0.7rem;
-    position: absolute;
-    transform: skewX(20deg)rotate(20deg);
-    top: 15vh;
-    right: 15vw;
-    animation: glow 2s ease;
-
-    /*    left: -20vw;*/
-}
 
 .voice4::before {
     background-size: contain;
@@ -214,9 +587,35 @@ body.sound1::after {
     font-size: 1rem;
 }
 
+/*
 .sound0 {
     animation: lightning 16s ease forwards;
 }
+*/
+
+
+@keyframes siren {
+
+    0% {
+        stroke: none;
+    }
+
+    1% {
+        stroke-dashoffset: 100;
+        stroke: url(#SireneGradient);
+    }
+
+    99% {
+        stroke-dashoffset: 1000;
+        stroke: url(#SireneGradient);
+
+    }
+
+    100% {
+        stroke: none;
+    }
+}
+
 
 @keyframes lightning {
 
@@ -265,6 +664,23 @@ body.sound1::after {
     }
 
 }
+
+
+
+/*
+@keyframes pulse {
+    0% {
+        box-shadow: 0px 0px 0px 0px rgba(209, 209, 209, 0.62);
+    }
+
+    50% {
+        box-shadow: 0px 0px 15px 30px rgba(209, 209, 209, 0.62);
+    }
+
+    100% {
+        box-shadow: 0px 0px 7px 15px rgba(209, 209, 209, 0.62);
+    }
+}*/
 
 
 
@@ -317,6 +733,7 @@ body.sound1::after {
     }
 }
 
+/*
 
 .voice2.cells {
 
@@ -324,6 +741,7 @@ body.sound1::after {
     color: #ffffff;
     text-shadow: 0px 0px 10px #26ff14;
 }
+*/
 
 /*
 .sound1 {
@@ -341,11 +759,11 @@ body.sound1::after {
 - Ambient noices styling -
 ********************************************** */
 
+/*
 body.sound0 {
     animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     animation-play-state: running;
-    perspective: 1000px;
 }
 
 
@@ -354,7 +772,6 @@ body.sound1 {
     animation: shake 0.8s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     animation-play-state: running;
-    perspective: 1000px;
 }
 
 
@@ -362,30 +779,73 @@ body.sound0.sound1.sound2 {
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     animation-play-state: running;
-    perspective: 1000px;
 }
+*/
 
-@keyframes shake {
+@keyframes tumm {
 
     10%,
     90% {
-        transform: translate3d(-1px, 0, 0);
+        transform: translate3d(1px, -1px, 0);
+        filter: drop-shadow(0px 0px 10px rgba(229, 0, 0, 0.81));
+        fill: red;
+
     }
 
     20%,
     80% {
-        transform: translate3d(2px, 0, 0);
+        transform: translate3d(-2px, 2px, 0);
+        filter: drop-shadow(0 0 20px rgba(229, 0, 0, 0.81));
+        fill: rgba(255, 0, 0, 0.8);
     }
 
     30%,
     50%,
     70% {
-        transform: translate3d(-4px, 0, 0);
+        transform: translate3d(4px, -4px, 0);
+        filter: drop-shadow(0 0 10px rgba(229, 0, 0, 0.81));
+        fill: rgba(255, 0, 0, 0.9);
     }
 
     40%,
     60% {
-        transform: translate3d(4px, 0, 0);
+        transform: translate3d(-4px, 4px, 0);
+        filter: drop-shadow(0 0 20px rgba(229, 0, 0, 0.81));
+        fill: red;
+    }
+}
+
+
+@keyframes buzzer {
+
+    10%,
+    90% {
+        transform: translate3d(1px, -1px, 0);
+        filter: drop-shadow(0px 0px 10px rgba(229, 0, 0, 0.81));
+        fill: #ffce00;
+
+    }
+
+    20%,
+    80% {
+        transform: translate3d(-2px, 2px, 0);
+        filter: drop-shadow(0 0 20px rgba(229, 0, 0, 0.81));
+        fill: rgba(255, 206, 0, 0.2);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(4px, -4px, 0);
+        filter: drop-shadow(0 0 10px rgba(229, 0, 0, 0.81));
+        fill: #ffce00;
+    }
+
+    40%,
+    60% {
+        transform: translate3d(-4px, 4px, 0);
+        filter: drop-shadow(0 0 20px rgba(229, 0, 0, 0.81));
+        fill: rgba(255, 206, 0, 0.2);
     }
 }
 
@@ -393,14 +853,14 @@ body.sound0.sound1.sound2 {
 
 
     0% {
-        box-shadow: 0px 0px 50px 16px rgba(229, 0, 0, 0.81);
-        border: 5px solid rgba(229, 0, 0, 0.81);
+        box-shadow: 0px 0px 50px 16px rgba(229, 185, 0, 0.81);
+        border: 5px solid rgba(229, 185, 0, 0.81);
     }
 
     50% {
         width: 55vw;
-        box-shadow: 0px 0px 50px 16px rgba(229, 0, 0, 0.81);
-        border: 2px solid rgba(229, 0, 0, 0.81);
+        box-shadow: 0px 0px 50px 16px rgba(229, 185, 0, 0.81);
+        border: 2px solid rgba(229, 185, 0, 0.81);
     }
 
     100% {
