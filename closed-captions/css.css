@@ -1160,7 +1160,7 @@ body.sound0.sound1.sound2 {
     }
 
     100% {
-        width: 50vw;
+        width: 800px;
         /*        transform: scale(5%);*/
     }
 }
