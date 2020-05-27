@@ -274,6 +274,281 @@ body {
     transform-origin: center;
 }
 
+.sound37 .scene1 {
+    visibility: hidden;
+}
+
+.scene2 {
+    visibility: hidden;
+}
+
+.sound37 .scene2 {
+    visibility: visible;
+}
+
+.sound38 .Dramatic_music {
+    animation: dramatic 3s ease-in-out;
+    animation-iteration-count: 15;
+    transform-origin: center;
+}
+
+.sound39 .S2Cells1 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound40 .S2Cells2 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound41 .S2Cells3 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound42 .S2Cells4 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound43 .S2Cells5 {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound44 .S2CellsBig {
+    animation: cellsSmall 1s ease-in-out;
+    transform-origin: center;
+}
+
+
+.sound45 .S2Interlinked1 {
+    animation: interlinkedBig 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound46 .S2Interlinked2 {
+    animation: interlinkedBig 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound48 .S2Interlinked3 {
+    animation: interlinkedBig 1s ease-in-out;
+    transform-origin: center;
+}
+
+.sound49 .Intensifies {
+    animation: intens 32s ease-in-out;
+    transform-origin: center;
+}
+
+.sound49 .S2Within1 {
+    animation: withincells2 1s;
+    transform-origin: center;
+}
+
+.sound50 .S2Within2 {
+    animation: withincells2 1s;
+    transform-origin: center;
+}
+
+.sound50 .Dreadfully {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound51 .Dreadfully2 {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound52 .Dreadfully3 {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound53 .Dreadfully4 {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound54 .Distinct {
+    stroke-dasharray: 50;
+    animation: distinct 1s;
+    transform-origin: center;
+}
+
+.sound55 .Distinct2 {
+    stroke-dasharray: 50;
+    animation: distinct 1s;
+    transform-origin: center;
+}
+
+.sound56 .dreadfully_distinct {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound57 .dreadfully_distinct2 {
+    stroke-dasharray: 50;
+    animation: cells 1s;
+    transform-origin: center;
+}
+
+.sound58 .Dark {
+    stroke-dasharray: 50;
+    animation: dark 1s;
+    transform-origin: center;
+}
+
+.sound59 .Dark2 {
+    stroke-dasharray: 50;
+    animation: dark 1s;
+    transform-origin: center;
+}
+
+.sound60 .S2Within3 {
+    animation: withincells2 1s;
+    transform-origin: center;
+}
+
+.sound61 .S2Within4 {
+    animation: withincells2 1s;
+    transform-origin: center;
+}
+
+.sound62 .one_stem {
+    animation: cellsSmall 1s;
+    transform-origin: center;
+}
+
+.sound63 .one_stem2 {
+    animation: cellsSmall 1s;
+    transform-origin: center;
+}
+
+.sound64 .against_the_dark {
+    stroke-dasharray: 50;
+    animation: distinct 1s;
+    transform-origin: center;
+}
+
+.sound65 .against_the_dark2 {
+    stroke-dasharray: 50;
+    animation: distinct 1s;
+    transform-origin: center;
+}
+
+.sound66 .Stop {
+    animation: stop 5s;
+    transform-origin: center;
+}
+
+
+@keyframes stop {
+    0% {
+        fill: rgba(255, 0, 0, 0.81)
+    }
+
+    20% {
+        fill: rgba(255, 0, 0, 0.81)
+    }
+
+    100% {
+        fill: rgba(128, 0, 128, 0)
+    }
+}
+
+
+@keyframes intens {
+    0% {
+        transform: translate3d(1px, 0px, 0);
+        fill: rgba(255, 255, 255, 0);
+    }
+
+    3% {
+        transform: translate3d(-1px, 0px, 0);
+        fill: rgba(255, 255, 255, 0.05);
+    }
+
+    5% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.1);
+    }
+
+    8% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.15);
+    }
+
+    11% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.1);
+    }
+
+    14% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.2);
+    }
+
+    17% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.25);
+    }
+
+    20% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.30);
+    }
+
+    23% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.35);
+    }
+
+    26% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.40);
+    }
+
+    29% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.45);
+    }
+
+    33% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.5);
+    }
+
+    36% {
+        transform: translate3d(1px, -1px, 0);
+        fill: rgba(255, 255, 255, 0.55);
+    }
+
+}
+
+@keyframes dramatic {
+    0% {
+        fill: rgba(128, 0, 128, 0)
+    }
+
+    50% {
+        fill: purple;
+    }
+
+    100% {
+        fill: rgba(128, 0, 128, 0)
+    }
+}
+
+
 
 @keyframes cells {
     99% {
@@ -284,7 +559,28 @@ body {
     100% {
         stroke: none;
     }
+}
 
+@keyframes distinct {
+    99% {
+        stroke: #ffcd26;
+        stroke-dashoffset: 400;
+    }
+
+    100% {
+        stroke: none;
+    }
+}
+
+@keyframes dark {
+    99% {
+        stroke: #6f6;
+        stroke-dashoffset: 400;
+    }
+
+    100% {
+        stroke: none;
+    }
 }
 
 @keyframes interlinkedTop {
