@@ -67,9 +67,29 @@ body {
 }
 
 
+.sound0 iframe {
+    animation: tumm 1s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    animation-iteration-count: 2;
+}
+
+
 .sound1 iframe {
     animation: buzzerAlarm 1.1s ease;
 }
+
+.sound4 iframe {
+    animation: beepvideo 1.1s ease;
+}
+
+.sound9 iframe {
+    animation: beepvideo2 1.1s ease;
+}
+
+.sound11 iframe {
+    animation: beepvideo3 1.1s ease;
+}
+
 
 .container {
     /*    background-color: aqua;*/
@@ -125,6 +145,7 @@ body {
     animation: highbeep 1.5s ease-in-out;
     transform-origin: center;
 }
+
 
 /* - Cells gedeelte - */
 
@@ -241,40 +262,40 @@ body {
     mix-blend-mode: difference;
 }
 
-.sound31 .Interlinked7 {
-    animation: interlinkedBottom 1.5s ease-in-out;
-    mix-blend-mode: difference;
+.sound32 .Interlinked7 {
+    animation: interlinkedBottom 1.5s ease-in-out !important;
+    mix-blend-mode: difference !important;
 }
 
-.sound32 .Interlinked8 {
-    animation: interlinkedTop 1.5s ease-in-out;
-    mix-blend-mode: difference;
+.sound33 .Interlinked8 {
+    animation: interlinkedTop 1.5s ease-in-out !important;
+    mix-blend-mode: difference !important;
 }
 
-.sound33 .Interlinked6 {
-    animation: interlinkedBottom 1.5s ease-in-out;
-    mix-blend-mode: difference;
+.sound34 .Interlinked6 {
+    animation: interlinkedBottom 1.5s ease-in-out !important;
+    mix-blend-mode: difference !important;
 }
 
-.sound34 .Within2 {
+.sound35 .Within2 {
 
-    animation: withincells 2s;
+    animation: withincells 2s !important;
     transform-origin: center;
 }
 
-.sound35 .Within1 {
+.sound36 .Within1 {
 
-    animation: withincells3 2s;
+    animation: withincells3 2s !important;
     transform-origin: center;
 }
 
-.sound36 .Within3 {
-    animation: withincells2 1.3s;
-    animation-iteration-count: 3;
+.sound37 .Within3 {
+    animation: withincells2 1.3s !important;
+    animation-iteration-count: 3 !important;
     transform-origin: center;
 }
 
-.sound37 .scene1 {
+.sound38 .scene1 {
     visibility: hidden;
 }
 
@@ -282,174 +303,208 @@ body {
     visibility: hidden;
 }
 
-.sound37 .scene2 {
+.sound38 .scene2 {
     visibility: visible;
 }
 
-.sound38 .Dramatic_music {
+.sound39 .Dramatic_music {
     animation: dramatic 3s ease-in-out;
     animation-iteration-count: 15;
     transform-origin: center;
 }
 
-.sound39 .S2Cells1 {
+.sound40 .S2Cells1 {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound40 .S2Cells2 {
+.sound41 .S2Cells2 {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound41 .S2Cells3 {
+.sound42 .S2Cells3 {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound42 .S2Cells4 {
+.sound43 .S2Cells4 {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound43 .S2Cells5 {
+.sound44 .S2Cells5 {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound44 .S2CellsBig {
+.sound45 .S2CellsBig {
     animation: cellsSmall 1s ease-in-out;
     transform-origin: center;
 }
 
 
-.sound45 .S2Interlinked1 {
+.sound46 .S2Interlinked1 {
     animation: interlinkedBig 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound46 .S2Interlinked2 {
+.sound47 .S2Interlinked2 {
     animation: interlinkedBig 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound48 .S2Interlinked3 {
+.sound49 .S2Interlinked3 {
     animation: interlinkedBig 1s ease-in-out;
     transform-origin: center;
 }
 
-.sound49 .Intensifies {
+.sound50 .Intensifies {
     animation: intens 32s ease-in-out;
     transform-origin: center;
 }
 
-.sound49 .S2Within1 {
+.sound50 .S2Within1 {
     animation: withincells2 1s;
     transform-origin: center;
 }
 
-.sound50 .S2Within2 {
+.sound51 .S2Within2 {
     animation: withincells2 1s;
     transform-origin: center;
 }
 
-.sound50 .Dreadfully {
+.sound51 .Dreadfully {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound51 .Dreadfully2 {
+.sound52 .Dreadfully2 {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound52 .Dreadfully3 {
+.sound53 .Dreadfully3 {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound53 .Dreadfully4 {
+.sound54 .Dreadfully4 {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound54 .Distinct {
+.sound55 .Distinct {
     stroke-dasharray: 50;
     animation: distinct 1s;
     transform-origin: center;
 }
 
-.sound55 .Distinct2 {
+.sound56 .Distinct2 {
     stroke-dasharray: 50;
     animation: distinct 1s;
     transform-origin: center;
 }
 
-.sound56 .dreadfully_distinct {
+.sound57 .dreadfully_distinct {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound57 .dreadfully_distinct2 {
+.sound58 .dreadfully_distinct2 {
     stroke-dasharray: 50;
     animation: cells 1s;
     transform-origin: center;
 }
 
-.sound58 .Dark {
+.sound59 .Dark {
     stroke-dasharray: 50;
     animation: dark 1s;
     transform-origin: center;
 }
 
-.sound59 .Dark2 {
+.sound60 .Dark2 {
     stroke-dasharray: 50;
     animation: dark 1s;
     transform-origin: center;
 }
 
-.sound60 .S2Within3 {
+.sound61 .S2Within3 {
     animation: withincells2 1s;
     transform-origin: center;
 }
 
-.sound61 .S2Within4 {
+.sound62 .S2Within4 {
     animation: withincells2 1s;
     transform-origin: center;
 }
 
-.sound62 .one_stem {
+.sound63 .one_stem {
     animation: cellsSmall 1s;
     transform-origin: center;
 }
 
-.sound63 .one_stem2 {
+.sound64 .one_stem2 {
     animation: cellsSmall 1s;
     transform-origin: center;
 }
 
-.sound64 .against_the_dark {
+.sound65 .against_the_dark {
     stroke-dasharray: 50;
     animation: distinct 1s;
     transform-origin: center;
 }
 
-.sound65 .against_the_dark2 {
+.sound66 .against_the_dark2 {
     stroke-dasharray: 50;
     animation: distinct 1s;
     transform-origin: center;
 }
 
-.sound66 .Stop {
+.sound67 .Stop {
     animation: stop 5s;
     transform-origin: center;
 }
 
+/*
+.sound31 #Buzzer1 path,
+.sound31 #Tumm path,
+.sound31 #Siren path,
+.sound31 #CellsBig path,
+.sound31 #CellsBig2 path,
+.sound31 #Cells1 path,
+.sound31 #Cells2 path,
+.sound31 #Cells3 path,
+.sound31 #Cells4 path,
+.sound31 #Cells5 path,
+.sound31 #Cells6 path,
+.sound31 #Cells7 path,
+.sound31 #Cells_8 path,
+.sound31 #Intensifies path,
+.sound31 #Interlinked1 path,
+.sound31 #Interlinked2 path,
+.sound31 #Interlinked3 path,
+.sound31 #Interlinked4 path,
+.sound31 #Interlinked12 path,
+.sound31 #Interlinked13 path,
+.sound31 #Interlinked14 path,
+.sound31 #Interlinked15 path,
+.sound31 #InterlinkedBig path,
+.sound31 #Dramatic_music path,
+.sound31 #Buzzer2 path,
+.sound31 #High_beep1 path,
+.sound31 #High_beep2 path {
+    animation: silent 15s ease-in;
+}*/
+
+.sound31 .scene1 path {
+    animation: silent 15s ease-in;
+}
 
 
 /* **********************************************
@@ -545,7 +600,7 @@ body {
 .voice4::before {
     background-size: contain;
     height: 18px;
-    content: "Mysterious voice:";
+    content: "Unkown voice:";
     font-weight: 600;
     background-color: #46bc3c;
     padding: 0.1rem 0.3rem;
@@ -566,6 +621,20 @@ body {
 - Keyframes-
 ********************************************** */
 
+
+@keyframes silent {
+    0% {
+        fill: rgba(255, 255, 255, 0.05);
+    }
+
+    99% {
+        fill: rgba(255, 255, 255, 0.81)
+    }
+
+    100% {
+        fill: rgba(128, 0, 128, 0);
+    }
+}
 
 
 @keyframes stop {
@@ -759,21 +828,7 @@ body {
 }
 
 
-@keyframes highbeep {
-    0% {}
 
-    50% {
-        fill: #26ff14;
-        transform: scaleY(1.1);
-    }
-
-    100% {
-        fill: #26ff14;
-        transform: scaleY(1);
-
-
-    }
-}
 
 @keyframes cellsSmall {
     0% {}
@@ -1119,6 +1174,77 @@ body {
         /*        transform: scale(5%);*/
     }
 }
+
+@keyframes beepvideo {
+    0% {
+        box-shadow: 0px 0px 50px 16px rgba(255, 255, 255, 0.69);
+        border: 5px solid #6f6;
+    }
+
+    30% {
+        height: 750px;
+        box-shadow: 0px 0px 50px 16px rgba(237, 248, 237, 0.83);
+        border: 2px solid rgba(102, 255, 102, 0.64);
+    }
+
+    100% {
+        height: 650px;
+        /*        transform: scale(5%);*/
+    }
+}
+
+@keyframes beepvideo2 {
+    0% {
+        box-shadow: 0px 0px 50px 16px rgba(255, 255, 255, 0.69);
+        border: 5px solid #6f6;
+    }
+
+    30% {
+        height: 750px;
+        box-shadow: 0px 0px 50px 16px rgba(237, 248, 237, 0.83);
+        border: 2px solid rgba(102, 255, 102, 0.64);
+    }
+
+    100% {
+        height: 650px;
+        /*        transform: scale(5%);*/
+    }
+}
+
+@keyframes beepvideo3 {
+    0% {
+        box-shadow: 0px 0px 50px 16px rgba(255, 255, 255, 0.69);
+        border: 5px solid #6f6;
+    }
+
+    30% {
+        height: 750px;
+        box-shadow: 0px 0px 50px 16px rgba(237, 248, 237, 0.83);
+        border: 2px solid rgba(102, 255, 102, 0.64);
+    }
+
+    100% {
+        height: 650px;
+        /*        transform: scale(5%);*/
+    }
+}
+
+@keyframes highbeep {
+    0% {}
+
+    50% {
+        fill: #26ff14;
+        transform: scaleY(1.1);
+    }
+
+    100% {
+        fill: #26ff14;
+        transform: scaleY(1);
+
+    }
+}
+
+
 
 
 /* **********************************************
