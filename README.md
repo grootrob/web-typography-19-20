@@ -63,15 +63,21 @@ In de laatste en volledig uitgewerkte versie ben ik gaan experimenteren met gean
 #### Buzzer
 <img src="/screenshots/Buzzer.png" alt="screenshot_van_buzzer-scene" width="350px">
 
+Aan het begin van de video zit al snel een hard buzzer geluid. Bij dit geluid vond ikd e oplichtende letters en trillen niet genoeg. Daarom hebik ook een border en width tranformatie toegevoed op de video. Deze heeft dit moment net een beetje extra effect.
+
 #### Cells
 <img src="/screenshots/Cells.png" alt="screenshot_van_cells-scene" width="350px">
 
+Omdat het met de captions niet altijd duidelijk was hoe vaak een woord gezeg werd (en dat werden sommige woorden nogal vaak) heb ik de **Cells** toegevoegd aan de geluiden. Op deze manier kan je precies zien wanneer het woord gezegd wordt en of het herhaald wordt.
+
 
 #### Interlinked
-
 <img src="/screenshots/Interlinked.png" alt="screenshot_van_Interlinked-scene" width="350px">
 
-#### Dramatic Music
+Net als de **Cells** werd het woord **Interlinked** ook erg vaak herhaald ook deze worden lichten één voor één op. In dit geval heb ik ze in elkaar laten gaan om het interlinked effect sterker te maken. Ook zit er een blend mode op om eenbgaaf kleur effect te creeeren wanneer ze overlappen.
 
+#### Dramatic Music
 <img src="/screenshots/Dramatic.png" alt="screenshot_van_Dramatic_music-scene" width="350px">
+
+De **Dramatic Music** teksts blijf maar liefst 45 seconden in beeld en pulseert langzaam om het niet afleidend te maken maar toch duidelijk te maken dat de muziek nog steeds speelt. Hetzelfde geldt voor de **Intensifies** tekst deze gaat steeds meer licht geven om duidelijk te maken dat de scene steeds heftiger wordt.
 
