@@ -48,7 +48,7 @@ Ook heb ik hier namen toegevoegd aan de closed-caption met een icoon erbij. Hier
 Ik ben niet verder gegaan met deze versie omdat het voor Darice niet duidelijk was wta de lijnen waren en het ook erg lastig zal zijn om dit duidelijk te maken. Wel heb ik de nametags in de captions behouden.
 
 # Experiment 2
-<img src="/screenshots/Experiment2.png" alt="Experiment1" width="350px">
+<img src="/screenshots/Experiment2.png" alt="Experiment2" width="350px">
 
 Voor experiment twee ben ik aan de slag gegaan met neon letters die door een balk heen komen. Op deze manier wou ik geluiden animeren en eventueel pixel figuren toevoegen.
 
@@ -58,8 +58,20 @@ Deze versie is het niet geworden omdat Darice snel langs vliegende objecten afle
 
 # Experiment 3 (Eindresultaat)
 
-Voor experiment twee ben ik aan de slag gegaan met neon letters die door een balk heen komen. Op deze manier wou ik geluiden animeren en eventueel pixel figuren toevoegen.
+In de laatste en volledig uitgewerkte versie ben ik gaan experimenteren met geanimeerde worden. Dit keer vliegen ze niet langs maar zitten ze als een soort frame om de video. Met behulp van CSS animatie sheb ik de verschillende woorden en geluiden voorgegeven en op het juist moment ingevoegd.
 
-#### Waarom niet gekozen?
-Deze versie is het niet geworden omdat Darice snel langs vliegende objecten afleidend vond. Ook werd het snel eentonig en dat vond ik niet creatief genoeg voor deze opdracht.
+#### Buzzer
+<img src="/screenshots/Buzzer.png" alt="screenshot_van_buzzer-scene" width="350px">
+
+#### Cells
+<img src="/screenshots/Cells.png" alt="screenshot_van_cells-scene" width="350px">
+
+
+#### Interlinked
+
+<img src="/screenshots/Interlinked.png" alt="screenshot_van_Interlinked-scene" width="350px">
+
+#### Dramatic Music
+
+<img src="/screenshots/Dramatic.png" alt="screenshot_van_Dramatic_music-scene" width="350px">
 
