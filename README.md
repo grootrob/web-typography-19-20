@@ -37,7 +37,7 @@ Zoals hierboven al genoemd heb ik een aantal van Darice's wensen als hoofd "eise
 De functie is belangrijk maar de ervaring misschien nog wel meer. Door deze nonsense word je ontwerp leuker en creatiever. De nonsense die ik toegevoegd heb is onder andere de verschillende animaties op de tekst. Deze in de hoop dat ze een toevoeging geven aan de ervaring.
 
 # Experiment 1
-<img src="/screenshots/Experiment1.png"  style="width:500px">
+<img src="/screenshots/Experiment1.png" width:"500px">
 
 # Experiment 2
 <a href="https://grootrob.github.io/web-typography-19-20/closed-captions/index.html">Link naar Experiment 2</a>
